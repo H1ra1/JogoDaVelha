@@ -18,9 +18,10 @@ header {
 }
 
 header h1 {
-    color: var(--mainBlue);
-    margin-top: 50px;
+    color: #eb2f00;
+    margin-top: 20px;
     font-size: 3em;
+    text-shadow: 0px 0px 4px #000000
 }
 
 main {
@@ -32,7 +33,7 @@ main {
 .grid {
     width: 50vw;
     height: 80vh;
-    background-color: var(--mainBlue);
+    background-color: #eb2f00;
     border: 5px solid rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.7);
@@ -45,50 +46,50 @@ main {
 }
 
 .col1 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col1;
     border-radius: 5px 0px 0px 0px;
 }
 
 .col2 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col2;
 }
 
 .col3 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col3;
     border-radius: 0px 5px 0px 0px;
 }
 
 .col4 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col4;
 }
 
 .col5 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col5;
 }
 
 .col6 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col6;
 }
 
 .col7 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col7;
     border-radius: 0px 0px 0px 5px;
 }
 
 .col8 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col8;
 }
 
 .col9 {
-    background-color: #eee;
+    background-image: linear-gradient(#121212, #0a0a0a);
     grid-area: col9;
     border-radius: 0px 0px 5px 0px;
 }
